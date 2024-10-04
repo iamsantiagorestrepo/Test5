@@ -1,5 +1,5 @@
-# Pedir al usuario que ingrese una lista de nombres separados por comas
-entrada_nombres = input("Introduce una lista de nombres separados por comas: ")
+# Pedir al usuario que ingrese una lista de nombres
+entrada_nombres = input("Introduce una lista de nombres")
 
 # Crear una lista de nombres y eliminar los espacios adicionales
 nombres = [nombre.strip() for nombre in entrada_nombres.split(",")]
